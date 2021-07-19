@@ -673,7 +673,8 @@ li {
 }
 
 .footer_information-company {
-  width: 1381px;
+  width: 100%;
+  max-width: 1381px;
   height: 479px;
   border: 2px solid rgba(196, 196, 196, 0.3);
   box-sizing: border-box;
@@ -682,7 +683,8 @@ li {
 }
 
 .footer_information-company_wrapper {
-  width: 1220px;
+  width: 100%;
+  max-width: 1220px;
   margin: 0 auto;
 }
 
@@ -772,7 +774,8 @@ li {
 }
 
 .footer_bottom_wrapper {
-  width: 1220px;
+  width: 100%;
+  max-width: 1220px;
   margin: 0 auto;
 }
 

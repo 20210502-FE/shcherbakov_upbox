@@ -7,10 +7,9 @@
 body {
   min-height: 100%;
   width: 100%;
-  max-width: 1440px;
   position: relative;
   overflow-x: hidden;
-  font-family: $s-font-regular;
+  font-family: $s-font-400;
   margin: 0 auto;
 }
 
@@ -21,16 +20,4 @@ a {
 li {
   list-style: none;
 }
-
-.wrapper {
-  max-width: 1290px;
-  margin: 0 auto;
-}
-
-.header {
-  width: 100%;
-  max-width: 1440px;
-}
-
-
 

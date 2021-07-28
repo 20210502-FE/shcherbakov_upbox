@@ -129,7 +129,7 @@ li {
   color: #000000;
 }
 
-.button_pink {
+.button__pink {
   width: 200px;
   height: 61px;
   background-color: #EF8094;
@@ -145,7 +145,7 @@ li {
   justify-content: center;
 }
 
-.button_pink_for-yourself {
+.button__pink__for-yourself {
   width: 284px;
   height: 61px;
   background-color: #FFFFFF;
@@ -162,631 +162,1193 @@ li {
   justify-content: center;
 }
 
-.header {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.header_line {
-  width: 100%;
-  height: 5px;
-  background: url("../assets/images/top-banner/top-line.png");
-  background-repeat: no-repeat;
-}
-
-.header_nav {
-  width: 100%;
-  height: 90px;
-}
-
-.header_nav_wrapper {
-  width: 100%;
-  max-width: 1220px;
-  margin: 0 auto;
-}
-
-.header_nav_logo {
-  width: 221px;
-  height: 56px;
-}
-
-.header_nav_logo_image {
-  width: 56px;
-  height: 56px;
-}
-
-.header_nav_logo_text {
-  width: 149px;
-  height: 33px;
-  font-family: "DM Sans 700";
-  font-size: 28px;
-  line-height: 36px;
-  letter-spacing: 0.28em;
-  margin-left: 16px;
-  text-transform: uppercase;
-}
-
-.header_nav_block_link {
-  width: 736px;
-  height: 38px;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 0.16em;
-  font-family: "DM Sans 700";
-}
-
-.header_nav_block_link li {
-  text-transform: uppercase;
-  margin-left: 67px;
-}
-
-.header_nav_block_link li:first-child {
-  margin-left: 0;
-}
-
-.header_nav_block_link li:last-child {
-  border: 2px solid #4A4A4A;
-  border-radius: 300px;
-  width: 124px;
-  height: 37px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header_nav_block_link li:last-child a {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding-top: 7px;
-}
-
-.header_banner {
-  width: 100%;
-  background-color: #F5F8FF;
-  position: relative;
-  z-index: -2;
-}
-
-.header_content {
-  width: 445px;
-  height: 318px;
-  margin: 107px 0 20px 111px;
-}
-
-.header_content_title {
-  font-family: "DM Serif Text 400";
-  font-size: 48px;
-  line-height: 56px;
-  color: #000000;
-  margin-bottom: 19px;
-}
-
-.header_content_text {
-  font-family: "DM Sans 400";
-  color: #000000;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.01em;
-  margin-bottom: 32px;
-}
-
-.header_content_button {
-  margin-left: 3px;
-}
-
-.header_product {
-  margin: 0 -25px 0 0;
-  width: 900px;
-  height: 547px;
-}
-
-.header_product_box {
-  width: 100%;
-  height: auto;
-  margin: 35px 0 0 -27px;
-}
-
-.header_product_marker {
-  width: 30.66%;
-  height: 72.76%;
-  position: absolute;
-  z-index: -1;
-  margin: 67px 0 0 36.9%;
-  background: url("../assets/images/top-banner/marker.png");
-  background-repeat: no-repeat;
-}
-
-.main {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.main_plan_banner {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.main_plan_banner_wrapper {
-  width: 100%;
-  max-width: 1270px;
-  margin: 0 auto;
-}
-
-.main_plan_banner_wrapper_title {
-  width: 100%;
-  margin: 71px 0 45px 0;
-}
-
-.main_plan_banner_wrapper_title_words {
-  font-family: "DM Serif Text 400";
-  font-size: 48px;
-  line-height: 56px;
-  text-align: center;
-  color: #000000;
-}
-
-.main_plan_banner_wrapper_title_underline {
-  width: 245px;
-  height: 17px;
-}
-
-.main_plan_banner_wrapper_content_monthly {
-  width: 575px;
-  height: 291px;
-  display: flex;
-  flex-direction: column;
-  border: 4px solid rgba(196, 196, 196, 0.3);
-  box-sizing: border-box;
-  border-radius: 6px;
-  background: url("../assets/images/pick-your-plan/vector-monthly.png");
-  margin-bottom: 40px;
-}
-
-.main_plan_banner_wrapper_content_monthly_period {
-  font-family: "DM Serif Text 400";
-  font-size: 36px;
-  line-height: 49px;
-  text-align: center;
-  color: #000000;
-  margin: 46px 0 4px -6px;
-}
-
-.main_plan_banner_wrapper_content_monthly_price {
-  font-family: "DM Sans 400";
-  font-size: 44px;
-  line-height: 57px;
-  text-align: center;
-  letter-spacing: 0.12em;
-  color: #000000;
-  margin: -2px 0 19px 6px;
-}
-
-.main_plan_banner_wrapper_content_yearly {
-  width: 575px;
-  height: 291px;
-  display: flex;
-  flex-direction: column;
-  border: 4px solid rgba(196, 196, 196, 0.3);
-  box-sizing: border-box;
-  border-radius: 6px;
-  margin-bottom: 40px;
-  background: url("../assets/images/pick-your-plan/vector-yearly.png");
-}
-
-.main_plan_banner_wrapper_content_yearly_period {
-  font-family: "DM Serif Text 400";
-  font-size: 36px;
-  line-height: 49px;
-  text-align: center;
-  color: #000000;
-  margin: 46px 0 4px -6px;
-  opacity: 1;
-}
-
-.main_plan_banner_wrapper_content_yearly_price {
-  font-family: "DM Sans 400";
-  font-size: 44px;
-  line-height: 57px;
-  text-align: center;
-  letter-spacing: 0.12em;
-  color: #000000;
-  margin: -2px 0 19px 2px;
-}
-
-.main_plan_banner_wrapper_bottom-title {
-  font-family: "DM Sans 400";
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.01em;
-  color: #000000;
-  margin: 5px 0 40px -11px;
-  width: 100%;
-  text-align: center;
-}
-
-.main {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.main_how-it-works {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.main_how-it-works_wrapper {
-  width: 100%;
-  max-width: 970px;
-  margin-top: 85px;
-}
-
-.main_how-it-works_setup-your-profile {
-  width: 100%;
-}
-
-.main_how-it-works_setup-your-profile_title {
-  width: 100%;
-  margin: 0 2px 0 0;
-}
-
-.main_how-it-works_setup-your-profile_title_text {
-  font-family: "DM Serif Text 400";
-  font-size: 48px;
-  line-height: 56px;
-  text-align: center;
-  color: #000000;
-  margin: 0 4px 0 0;
-}
-
-.main_how-it-works_setup-your-profile_title_underline {
-  margin: 2px 3px 0 0;
-}
-
-.main_how-it-works_setup-your-profile_photo {
-  width: 420px;
-  height: 410px;
-  margin: 0 0 0 -38px;
-}
-
-.main_how-it-works_setup-your-profile_photo_pictures {
-  width: 323px;
-  height: 390px;
-  margin: 50px 0 0 0;
-}
-
-.main_how-it-works_setup-your-profile_photo_numeral {
-  position: absolute;
-  z-index: +1;
-  margin: 97px 224px 0 0;
-}
-
-.main_how-it-works_setup-your-profile_photo_art {
-  position: absolute;
-  z-index: -1;
-  margin: 34px 123px 0 0;
-}
-
-.main_how-it-works_setup-your-profile_content {
-  width: 390px;
-  height: 175px;
-  margin: 100px 0 0 43px;
-}
-
-.main_how-it-works_setup-your-profile_content_title {
-  font-family: "DM Serif Text 400";
-  font-size: 36px;
-  line-height: 44px;
-  color: #000000;
-  margin-bottom: 20px;
-}
-
-.main_how-it-works_setup-your-profile_content_text {
-  font-family: "DM Sans 400";
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.01em;
-  color: #000000;
-}
-
-.main_how-it-works_review-your-custom-box {
-  width: 100%;
-  margin-top: 107px;
-}
-
-.main_how-it-works_review-your-custom-box_photo {
-  width: 400px;
-  height: 250px;
-  margin: 0 0 200px 240px;
-}
-
-.main_how-it-works_review-your-custom-box_photo_pictures {
-  width: 392px;
-  height: 245px;
-  box-shadow: 2em 2em 30px rgba(0, 0, 0, 0.3);
-}
-
-.main_how-it-works_review-your-custom-box_photo_numeral {
-  position: absolute;
-  z-index: +1;
-  margin: 0 0 -111px -61px;
-}
-
-.main_how-it-works_review-your-custom-box_photo_art {
-  position: absolute;
-  z-index: -2;
-  margin: 0 0 35px -70px;
-}
-
-.main_how-it-works_review-your-custom-box_photo_art2_vector {
-  position: absolute;
-  z-index: -1;
-  margin: 0 0 52px 198px;
-}
-
-.main_how-it-works_review-your-custom-box_content {
-  width: 409px;
-  height: 175px;
-  margin: 100px 0 0 43px;
-  position: absolute;
-  z-index: 2;
-  margin: 0 0 -252px 74px;
-}
-
-.main_how-it-works_review-your-custom-box_content_title {
-  font-family: "DM Serif Text 400";
-  font-size: 36px;
-  line-height: 44px;
-  color: #000000;
-  margin-bottom: 12px;
-}
-
-.main_how-it-works_review-your-custom-box_content_text {
-  font-family: "DM Sans 400";
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.01em;
-  color: #000000;
-  margin: 0 0 0 1px;
-}
-
-.main_how-it-works_try-it-on-at-home {
-  width: 100%;
-}
-
-.main_how-it-works_try-it-on-at-home_photo {
-  width: 420px;
-  height: 410px;
-  margin: 100px 0 0 -33px;
-}
-
-.main_how-it-works_try-it-on-at-home_photo_pictures {
-  width: 323px;
-  height: 390px;
-  margin: 50px 0 0 0;
-}
-
-.main_how-it-works_try-it-on-at-home_photo_numeral {
-  position: absolute;
-  z-index: +1;
-  margin: 97px 218px 0 0;
-}
-
-.main_how-it-works_try-it-on-at-home_photo_art {
-  position: absolute;
-  z-index: -1;
-  margin: 285px -78px 0 0;
-}
-
-.main_how-it-works_try-it-on-at-home_content {
-  width: 453px;
-  height: 175px;
-  margin: 227px 0 0 42px;
-}
-
-.main_how-it-works_try-it-on-at-home_content_title {
-  font-family: "DM Serif Text 400";
-  font-size: 36px;
-  line-height: 44px;
-  color: #000000;
-  margin-bottom: 15px;
-}
-
-.main_how-it-works_try-it-on-at-home_content_text {
-  font-family: "DM Sans 400";
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.01em;
-  color: #000000;
-  margin: 0 0 0 1px;
-}
-
-.main_how-it-works_try-it-on-at-home_button {
-  width: 100%;
-  margin: 200px 0 36px 0;
-}
-
-.main {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.main_social_post {
-  width: 100%;
-  background-color: #F5F8FF;
-}
-
-.main_social_post_title {
-  width: 100%;
-  font-size: 48px;
-  line-height: 56px;
-  font-family: "DM Serif Text 400";
-  text-align: center;
-  color: #000000;
-  margin: 100px 0 50px 0;
-  padding-top: 100px;
-}
-
-.main_social_post_content {
-  width: 100%;
-  padding: 0 29px 0;
-}
-
-.main_social_post_content_figure {
-  width: 312px;
-  height: 525px;
-  margin-bottom: 99px;
-}
-
-.main_social_post_content_figure_photo {
-  width: 312px;
-  height: 431px;
-  margin-bottom: 25px;
-}
-
-.main_social_post_content_figure_description {
-  font-family: "DM Sans 400";
-  font-size: 26px;
-  line-height: 34px;
-  letter-spacing: 0.01em;
-  margin: 0 0 0 2px;
-}
-
-.main_social_post_bottom_wrapper {
-  width: 100%;
-}
-
-.main_social_post_bottom_wrapper_button {
-  width: 320px;
-  height: 61px;
-  margin: 0 6px 94px 0;
-}
-
-.footer {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.footer_information-company {
-  width: 100%;
-  max-width: 1381px;
-  height: 479px;
-  border: 2px solid rgba(196, 196, 196, 0.3);
-  box-sizing: border-box;
-  background-color: #EEEEEE;
-  margin: 31px auto;
-}
-
-.footer_information-company_wrapper {
-  width: 100%;
-  max-width: 1220px;
-  margin: 0 auto;
-}
-
-.footer_social-top {
-  width: 100%;
-  height: 122px;
-  margin-bottom: 17px;
-}
-
-.footer_social-top_logo {
-  width: 140px;
-  height: 38px;
-}
-
-.footer_social-top_logo_img {
-  width: 38px;
-  height: 38px;
-}
-
-.footer_social-top_logo_text {
-  font-family: "DM Sans 700";
-  font-size: 19px;
-  line-height: 36px;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  margin: 0 0 0 10px;
-}
-
-.footer_social-top_group {
-  width: 200px;
-  height: 26px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 2px 0 0;
-}
-
-.footer_social-top_group_social-items {
-  width: 26px;
-  height: 26px;
-}
-
-.footer_social-top_group_social-items i {
-  width: 26px;
-  height: 26px;
-}
-
-.footer_content {
-  width: 100%;
-  padding-right: 105px;
-  margin-bottom: 53px;
-}
-
-.footer_content_column {
-  width: 165px;
-  height: 210px;
-}
-
-.footer_content_column_title {
-  font-family: "DM Sans 700";
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: 0.12em;
-  color: #000000;
-  margin: 0 0 15px 0;
-}
-
-.footer_content_column_link {
-  font-family: "DM Sans 500";
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 0.12em;
-  color: #000000;
-}
-
-.footer_content_column_link li {
-  margin-bottom: 11px;
-}
-
-.footer_content_column_link li a {
-  color: #000000;
-}
-
-.footer_bottom {
-  width: 100%;
-  height: 70px;
-  border-top: 2px solid rgba(196, 196, 196, 0.3);
-}
-
-.footer_bottom_wrapper {
-  width: 100%;
-  max-width: 1220px;
-  margin: 0 auto;
-}
-
-.footer_bottom_wrapper_links {
-  font-family: "DM Sans 500";
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 0.12em;
-  color: #000000;
-}
-
-.footer_bottom_wrapper_links:last-child {
-  margin-left: 50px;
+@media only screen and (max-width: 768px) {
+  .button {
+    border: 4px solid #EF8094;
+    border-radius: 300px;
+    background-color: #FFFFFF;
+    width: 161px;
+    height: 49px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "DM Sans 700";
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    padding: 10px 0;
+  }
+  .button__pink {
+    width: 106px;
+    height: 33px;
+    background-color: #EF8094;
+    border: none;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button__pink__for-yourself {
+    width: 225px;
+    height: 49px;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: #000000;
+    border-radius: 300px;
+    border: 4px solid #EF8094;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .header {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .header__line {
+    width: 100%;
+    height: 5px;
+    background: url("../assets/images/top-banner/top-line.png");
+    background-repeat: no-repeat;
+  }
+  .header__nav {
+    width: 100%;
+    height: 90px;
+  }
+  .header__nav__wrapper {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+  .header__nav__logo {
+    width: 221px;
+    height: 56px;
+  }
+  .header__nav__logo__image {
+    width: 56px;
+    height: 56px;
+  }
+  .header__nav__logo__text {
+    width: 149px;
+    height: 33px;
+    font-family: "DM Sans 700";
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.28em;
+    margin-left: 16px;
+    text-transform: uppercase;
+  }
+  .header__nav__block__link {
+    width: 736px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.16em;
+    font-family: "DM Sans 700";
+  }
+  .header__nav__block__link ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__nav__block__link li {
+    text-transform: uppercase;
+  }
+  .header__nav__block__link li:first-child {
+    margin-left: 0;
+  }
+  .header__nav__block__link li:last-child {
+    border: 2px solid #4A4A4A;
+    border-radius: 300px;
+    width: 124px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__nav__block__link li:last-child a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 7px;
+  }
+  .header__banner {
+    width: 100%;
+    background-color: #F5F8FF;
+    position: relative;
+    z-index: -2;
+  }
+  .header__content {
+    width: 445px;
+    height: 318px;
+    margin: 107px 0 20px 102px;
+  }
+  .header__content__title {
+    font-family: "DM Serif Text 400";
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 19px;
+  }
+  .header__content__text {
+    font-family: "DM Sans 400";
+    color: #000000;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    margin-bottom: 32px;
+  }
+  .header__content__button {
+    margin-left: 1px;
+  }
+  .header__product {
+    margin: 0 -25px 0 0;
+    width: 900px;
+    height: 547px;
+  }
+  .header__product__box {
+    width: 100%;
+    height: auto;
+    margin: 30px 0 0 -27px;
+  }
+  .header__product__marker {
+    width: 30.66%;
+    height: 72.76%;
+    position: absolute;
+    z-index: -1;
+    margin: 67px 0 0 36.9%;
+    background: url("../assets/images/top-banner/marker.png");
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header__line {
+    width: 100%;
+    height: 5px;
+    background: url("../assets/images/top-banner/top-line.png");
+    background-repeat: no-repeat;
+  }
+  .header__nav {
+    width: 100%;
+    height: 70px;
+  }
+  .header__nav__wrapper {
+    width: 100%;
+    max-width: calc(100% - 72px);
+    margin: 0 0 0 41px;
+  }
+  .header__nav__logo {
+    width: 129px;
+    height: 37px;
+  }
+  .header__nav__logo__image {
+    width: 37px;
+    height: 37px;
+  }
+  .header__nav__logo__text {
+    width: 80px;
+    height: 13px;
+    font-family: "DM Sans 700";
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.28em;
+    margin-left: 11px;
+    text-transform: uppercase;
+  }
+  .header__nav__block__link {
+    margin: 5px -11px 0 0;
+    width: 473px;
+    height: 32px;
+    font-size: 10px;
+    line-height: 26px;
+    letter-spacing: 0.16em;
+    font-family: "DM Sans 500";
+  }
+  .header__nav__block__link ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__nav__block__link li {
+    text-transform: uppercase;
+  }
+  .header__nav__block__link li:first-child {
+    margin-left: 0;
+  }
+  .header__nav__block__link li:last-child {
+    border: 2px solid #4A4A4A;
+    border-radius: 300px;
+    width: 105px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__nav__block__link li:last-child a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .header__banner {
+    width: 100%;
+    background-color: #F5F8FF;
+    position: relative;
+    z-index: -2;
+  }
+  .header__content {
+    width: 360px;
+    height: 100px;
+    margin: 20px 0 0 41px;
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    flex-direction: column;
+  }
+  .header__content__title {
+    font-family: "DM Serif Text 400";
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 18px;
+  }
+  .header__content__text {
+    font-family: "DM Sans 400";
+    color: #000000;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    margin-bottom: 31px;
+  }
+  .header__content__button {
+    margin: 0 0 0 -1px;
+  }
+  .header__product__tablet-box {
+    width: 96%;
+    height: auto;
+    margin: 60px 0 0 187px;
+    transform: scale(1, 1);
+  }
+  .header__product__marker {
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .main {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .main__plan-banner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main__plan-banner__wrapper {
+    width: 100%;
+    max-width: 1270px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1166px) {
+  .main__plan-banner__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .main__plan-banner__wrapper__title {
+    width: 100%;
+    margin: 71px 0 45px 0;
+  }
+  .main__plan-banner__wrapper__title__words {
+    font-family: "DM Serif Text 400";
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+  }
+  .main__plan-banner__wrapper__title__underline {
+    width: 245px;
+    height: 17px;
+  }
+  .main__plan-banner__wrapper__content-monthly {
+    width: 575px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid rgba(196, 196, 196, 0.3);
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: url("../assets/images/pick-your-plan/vector-monthly.png");
+    margin-bottom: 40px;
+  }
+  .main__plan-banner__wrapper__content-monthly__period {
+    font-family: "DM Serif Text 400";
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+    margin: 46px 0 4px -6px;
+  }
+  .main__plan-banner__wrapper__content-monthly__price {
+    font-family: "DM Sans 400";
+    font-size: 44px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin: -2px 0 19px 6px;
+  }
+  .main__plan-banner__wrapper__content-yearly {
+    width: 575px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid rgba(196, 196, 196, 0.3);
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    background: url("../assets/images/pick-your-plan/vector-yearly.png");
+  }
+  .main__plan-banner__wrapper__content-yearly__period {
+    font-family: "DM Serif Text 400";
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+    margin: 46px 0 4px -6px;
+    opacity: 1;
+  }
+  .main__plan-banner__wrapper__content-yearly__price {
+    font-family: "DM Sans 400";
+    font-size: 44px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin: -2px 0 19px 2px;
+  }
+  .main__plan-banner__wrapper__bottom-title {
+    font-family: "DM Sans 400";
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 5px 0 40px -11px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main__plan-banner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main__plan-banner__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .main__plan-banner__wrapper__title {
+    width: 100%;
+    margin: 29px 0 29px 20px;
+  }
+  .main__plan-banner__wrapper__title__words {
+    font-family: "DM Serif Text 400";
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  .main__plan-banner__wrapper__title__underline img {
+    width: 204.17px;
+    height: 8.92px;
+  }
+  .main__plan-banner__wrapper__content-monthly {
+    width: 305.61px;
+    height: 154.67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid rgba(196, 196, 196, 0.3);
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: url("../assets/images/pick-your-plan/vector-monthly.png");
+    margin: 0 0 22px 15px;
+  }
+  .main__plan-banner__wrapper__content-monthly__period {
+    font-family: "DM Serif Text 400";
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    margin: 20px 0 2px -1px;
+  }
+  .main__plan-banner__wrapper__content-monthly__price {
+    font-family: "DM Sans 400";
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin: -2px 0 7px 6px;
+  }
+  .main__plan-banner__wrapper__content-yearly {
+    width: 305.61px;
+    height: 154.67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid rgba(196, 196, 196, 0.3);
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-bottom: 22px;
+    background: url("../assets/images/pick-your-plan/vector-yearly.png");
+  }
+  .main__plan-banner__wrapper__content-yearly__period {
+    font-family: "DM Serif Text 400";
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    margin: 20px 0 2px -1px;
+    opacity: 1;
+  }
+  .main__plan-banner__wrapper__content-yearly__price {
+    font-family: "DM Sans 400";
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin: -2px 0 7px 2px;
+  }
+  .main__plan-banner__wrapper__bottom-title {
+    font-family: "DM Sans 400";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 0 0 40px 25px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .main {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .main__how-it-works {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main__how-it-works__wrapper {
+    width: 100%;
+    max-width: 970px;
+    margin-top: 85px;
+  }
+  .main__how-it-works__setup-your-profile {
+    width: 100%;
+  }
+  .main__how-it-works__setup-your-profile__title {
+    width: 100%;
+    margin: 0 2px 0 0;
+  }
+  .main__how-it-works__setup-your-profile__title__text {
+    font-family: "DM Serif Text 400";
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+    margin: 0 4px 0 0;
+  }
+  .main__how-it-works__setup-your-profile__title__underline {
+    margin: 2px 3px 0 0;
+  }
+  .main__how-it-works__setup-your-profile__photo {
+    width: 420px;
+    height: 410px;
+    margin: 0 0 0 -38px;
+  }
+  .main__how-it-works__setup-your-profile__photo__pictures {
+    width: 323px;
+    height: 390px;
+    margin: 50px 0 0 0;
+  }
+  .main__how-it-works__setup-your-profile__photo__numeral {
+    position: absolute;
+    z-index: +1;
+    margin: 97px 224px 0 0;
+  }
+  .main__how-it-works__setup-your-profile__photo__art {
+    position: absolute;
+    z-index: -1;
+    margin: 34px 123px 0 0;
+  }
+  .main__how-it-works__setup-your-profile__content {
+    width: 390px;
+    height: 175px;
+    margin: 100px 0 0 43px;
+  }
+  .main__how-it-works__setup-your-profile__content__title {
+    font-family: "DM Serif Text 400";
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .main__how-it-works__setup-your-profile__content__text {
+    font-family: "DM Sans 400";
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  .main__how-it-works__review-your-custom-box {
+    width: 100%;
+    margin-top: 107px;
+  }
+  .main__how-it-works__review-your-custom-box__photo {
+    width: 400px;
+    height: 250px;
+    margin: 0 0 200px 240px;
+  }
+  .main__how-it-works__review-your-custom-box__photo__pictures {
+    width: 392px;
+    height: 245px;
+    box-shadow: 2em 2em 30px rgba(0, 0, 0, 0.3);
+  }
+  .main__how-it-works__review-your-custom-box__photo__numeral {
+    position: absolute;
+    z-index: +1;
+    margin: 0 0 -111px -61px;
+  }
+  .main__how-it-works__review-your-custom-box__photo__art {
+    position: absolute;
+    z-index: -2;
+    margin: 0 0 35px -70px;
+  }
+  .main__how-it-works__review-your-custom-box__photo__art2-vector {
+    position: absolute;
+    z-index: -1;
+    margin: 0 0 52px 198px;
+  }
+  .main__how-it-works__review-your-custom-box__content {
+    width: 409px;
+    height: 175px;
+    margin: 100px 0 0 43px;
+    position: absolute;
+    z-index: 2;
+    margin: 0 0 -252px 74px;
+  }
+  .main__how-it-works__review-your-custom-box__content__title {
+    font-family: "DM Serif Text 400";
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 12px;
+  }
+  .main__how-it-works__review-your-custom-box__content__text {
+    font-family: "DM Sans 400";
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 0 0 0 1px;
+  }
+  .main__how-it-works__try-it-on-at-home {
+    width: 100%;
+  }
+  .main__how-it-works__try-it-on-at-home__photo {
+    width: 420px;
+    height: 410px;
+    margin: 100px 0 0 -33px;
+  }
+  .main__how-it-works__try-it-on-at-home__photo__pictures {
+    width: 323px;
+    height: 390px;
+    margin: 50px 0 0 0;
+  }
+  .main__how-it-works__try-it-on-at-home__photo__numeral {
+    position: absolute;
+    z-index: +1;
+    margin: 97px 218px 0 0;
+  }
+  .main__how-it-works__try-it-on-at-home__photo__art {
+    position: absolute;
+    z-index: -1;
+    margin: 285px -78px 0 0;
+  }
+  .main__how-it-works__try-it-on-at-home__content {
+    width: 453px;
+    height: 175px;
+    margin: 227px 0 0 42px;
+  }
+  .main__how-it-works__try-it-on-at-home__content__title {
+    font-family: "DM Serif Text 400";
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  .main__how-it-works__try-it-on-at-home__content__text {
+    font-family: "DM Sans 400";
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 0 0 0 1px;
+  }
+  .main__how-it-works__try-it-on-at-home__button {
+    width: 100%;
+    margin: 200px 0 36px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main__how-it-works {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main__how-it-works__wrapper {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .main__how-it-works__setup-your-profile {
+    width: 100%;
+  }
+  .main__how-it-works__setup-your-profile__title {
+    width: 100%;
+    margin: 0 2px 0 0;
+  }
+  .main__how-it-works__setup-your-profile__title__text {
+    font-family: "DM Serif Text 400";
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 0 31px;
+  }
+  .main__how-it-works__setup-your-profile__title__underline {
+    width: 197.34px;
+    height: 13.34px;
+    margin: 2px 0 0 35px;
+  }
+  .main__how-it-works__setup-your-profile__photo {
+    width: 257.47px;
+    height: 385.41px;
+    margin: 0 0 0 55px;
+  }
+  .main__how-it-works__setup-your-profile__photo__pictures {
+    width: 100%;
+    height: 80%;
+    margin: 25px 0 0 0;
+  }
+  .main__how-it-works__setup-your-profile__photo__numeral {
+    position: absolute;
+    z-index: +1;
+    margin: 55px 165px 0 0;
+  }
+  .main__how-it-works__setup-your-profile__photo__art {
+    position: absolute;
+    z-index: -1;
+    margin: -13px 66px 0 0;
+    transform: scale(0.8, 0.8);
+  }
+  .main__how-it-works__setup-your-profile__content {
+    width: 310px;
+    height: 150px;
+    margin: 62px 0 0 33px;
+  }
+  .main__how-it-works__setup-your-profile__content__title {
+    font-family: "DM Serif Text 400";
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 17px;
+  }
+  .main__how-it-works__setup-your-profile__content__text {
+    font-family: "DM Sans 400";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  .main__how-it-works__review-your-custom-box {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .main__how-it-works__review-your-custom-box__photo {
+    width: 315px;
+    height: 192px;
+    margin: -26px 0 200px 220px;
+  }
+  .main__how-it-works__review-your-custom-box__photo__pictures {
+    width: 315px;
+    height: 192px;
+    box-shadow: 2em 2em 30px rgba(0, 0, 0, 0.3);
+  }
+  .main__how-it-works__review-your-custom-box__photo__numeral {
+    position: absolute;
+    z-index: +1;
+    margin: 0 0 -113px -56px;
+  }
+  .main__how-it-works__review-your-custom-box__photo__art {
+    position: absolute;
+    z-index: -2;
+    margin: 0 0 12px -55px;
+  }
+  .main__how-it-works__review-your-custom-box__photo__art2-vector {
+    position: absolute;
+    z-index: -1;
+    margin: 0 0 10px 125px;
+    transform: scale(0.8, 0.8);
+  }
+  .main__how-it-works__review-your-custom-box__content {
+    width: 320px;
+    height: 140px;
+    position: absolute;
+    z-index: 2;
+    margin: 100px 0 -223px 60px;
+  }
+  .main__how-it-works__review-your-custom-box__content__title {
+    font-family: "DM Serif Text 400";
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  .main__how-it-works__review-your-custom-box__content__text {
+    font-family: "DM Sans 400";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 0 0 0 1px;
+  }
+  .main__how-it-works__try-it-on-at-home {
+    width: 100%;
+  }
+  .main__how-it-works__try-it-on-at-home__photo {
+    width: 260.65px;
+    height: 350px;
+    margin: 7px 0 0 58px;
+  }
+  .main__how-it-works__try-it-on-at-home__photo__pictures {
+    width: 260.65px;
+    height: 350px;
+    margin: 55px 0 0 0;
+    transform: scale(0.95, 0.95);
+  }
+  .main__how-it-works__try-it-on-at-home__photo__numeral {
+    position: absolute;
+    z-index: +1;
+    margin: 105px 155px 0 0;
+  }
+  .main__how-it-works__try-it-on-at-home__photo__art {
+    position: absolute;
+    z-index: -1;
+    margin: 242px -78px 0 0;
+    transform: scale(0.8, 0.8);
+  }
+  .main__how-it-works__try-it-on-at-home__content {
+    width: 350px;
+    height: 110px;
+    margin: 142px 0 0 30px;
+  }
+  .main__how-it-works__try-it-on-at-home__content__title {
+    font-family: "DM Serif Text 400";
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 13px;
+  }
+  .main__how-it-works__try-it-on-at-home__content__text {
+    font-family: "DM Sans 400";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 0 0 0 1px;
+  }
+  .main__how-it-works__try-it-on-at-home__button {
+    width: 100%;
+    margin: 115px 0 35px 16px;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.12em;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .main {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .main__social-post {
+    width: 100%;
+    background-color: #F5F8FF;
+  }
+  .main__social-post__title {
+    width: 100%;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: "DM Serif Text 400";
+    text-align: center;
+    color: #000000;
+    margin: 100px 0 50px 0;
+    padding-top: 100px;
+  }
+  .main__social-post__content {
+    width: 100%;
+    padding: 0 29px 0;
+  }
+  .main__social-post__content__figure {
+    width: 312px;
+    height: 525px;
+    margin-bottom: 99px;
+  }
+  .main__social-post__content__figure__photo {
+    width: 312px;
+    height: 431px;
+    margin-bottom: 25px;
+  }
+  .main__social-post__content__figure__description {
+    font-family: "DM Sans 400";
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    margin: 0 0 0 2px;
+  }
+  .main__social-post__bottom-wrapper {
+    width: 100%;
+  }
+  .main__social-post__bottom-wrapper__button {
+    width: 320px;
+    height: 61px;
+    margin: 0 6px 94px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main__social-post {
+    width: 100%;
+    background-color: #F5F8FF;
+  }
+  .main__social-post__title {
+    width: 100%;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: "DM Serif Text 400";
+    text-align: center;
+    color: #000000;
+    margin: 51px 0 50px 9px;
+    padding-top: 100px;
+  }
+  .main__social-post__content {
+    width: 100%;
+    padding: 0 30px 0;
+    margin: 0 0 0 10px;
+  }
+  .main__social-post__content__figure {
+    width: 312px;
+    height: 525px;
+    margin-bottom: 45px;
+  }
+  .main__social-post__content__figure__photo {
+    width: 312px;
+    height: 431px;
+    margin-bottom: 26px;
+  }
+  .main__social-post__content__figure__description {
+    font-family: "DM Sans 400";
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+  }
+  .main__social-post__bottom-wrapper {
+    width: 100%;
+  }
+  .main__social-post__bottom-wrapper__button {
+    width: 320px;
+    height: 61px;
+    margin: 20px 0 130px 17px;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .footer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .footer__information-company {
+    width: 100%;
+    max-width: 1381px;
+    border: 2px solid rgba(196, 196, 196, 0.3);
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    margin: 31px auto;
+  }
+  .footer__information-company__wrapper {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+  .footer__social-top {
+    width: 100%;
+    height: 122px;
+    margin-bottom: 17px;
+  }
+  .footer__social-top__logo {
+    width: 140px;
+    height: 38px;
+  }
+  .footer__social-top__logo__img {
+    width: 38px;
+    height: 38px;
+  }
+  .footer__social-top__logo__text {
+    font-family: "DM Sans 700";
+    font-size: 19px;
+    line-height: 36px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    margin: 0 0 0 10px;
+  }
+  .footer__social-top__group {
+    width: 200px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2px 0 0;
+  }
+  .footer__social-top__group__social-items {
+    width: 26px;
+    height: 26px;
+  }
+  .footer__social-top__group__social-items i {
+    width: 26px;
+    height: 26px;
+  }
+  .footer__content {
+    width: 100%;
+    padding-right: 36px;
+    margin-bottom: 53px;
+  }
+  .footer__content__column {
+    width: 165px;
+    height: 210px;
+  }
+  .footer__content__column__title {
+    font-family: "DM Sans 700";
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin: 0 0 15px 0;
+  }
+  .footer__content__column__link {
+    font-family: "DM Sans 500";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    color: #000000;
+  }
+  .footer__content__column__link li {
+    margin-bottom: 11px;
+  }
+  .footer__content__column__link li a {
+    color: #000000;
+  }
+  .footer__bottom {
+    width: 100%;
+    height: 70px;
+    border-top: 2px solid rgba(196, 196, 196, 0.3);
+  }
+  .footer__bottom__wrapper {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+  .footer__bottom__wrapper__terms {
+    margin: 30px 0 0 1010px;
+  }
+  .footer__bottom__wrapper__terms__links {
+    font-family: "DM Sans 500";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    color: #000000;
+  }
+  .footer__bottom__wrapper__terms__links:last-child {
+    margin-left: 45px;
+  }
+  .footer__bottom__wrapper__terms__copyright {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer__information-company {
+    width: 100%;
+    max-width: calc(100% - 64px);
+    border: 2px solid rgba(196, 196, 196, 0.3);
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    margin: 40px 0 0 42px;
+  }
+  .footer__information-company__wrapper {
+    width: 100%;
+    max-width: 535px;
+    margin: 0 0 0 60px;
+  }
+  .footer__social-top {
+    width: 100%;
+    height: 120px;
+    margin: 15px 0 8px 0;
+  }
+  .footer__social-top__logo {
+    width: 140px;
+    height: 38px;
+  }
+  .footer__social-top__logo__img {
+    width: 38px;
+    height: 38px;
+  }
+  .footer__social-top__logo__text {
+    font-family: "DM Sans 700";
+    font-size: 19px;
+    line-height: 36px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    margin: 0 0 0 10px;
+  }
+  .footer__social-top__group {
+    width: 195px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2px 0 0;
+  }
+  .footer__social-top__group__social-items {
+    width: 26px;
+    height: 26px;
+  }
+  .footer__social-top__group__social-items i {
+    width: 26px;
+    height: 26px;
+  }
+  .footer__content {
+    width: 100%;
+    margin-bottom: 53px;
+  }
+  .footer__content__column {
+    width: 200px;
+    height: 210px;
+    margin-bottom: 29px;
+  }
+  .footer__content__column__title {
+    font-family: "DM Sans 700";
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin: 0 0 15px 0;
+  }
+  .footer__content__column__link {
+    font-family: "DM Sans 500";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    color: #000000;
+  }
+  .footer__content__column__link li {
+    margin-bottom: 11px;
+  }
+  .footer__content__column__link li a {
+    color: #000000;
+  }
+  .footer__bottom {
+    width: 100%;
+    border-top: 2px solid rgba(196, 196, 196, 0.3);
+    margin: -100px 0 0 0;
+  }
+  .footer__bottom__wrapper {
+    width: 100%;
+    max-width: 570px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+  }
+  .footer__bottom__wrapper__terms__links {
+    font-family: "DM Sans 500";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    padding-top: 30px;
+    margin-bottom: 22px;
+  }
+  .footer__bottom__wrapper__terms__links:first-child {
+    margin: 0 47px 0 3px;
+  }
+  .footer__bottom__wrapper__terms__copyright {
+    width: 510px;
+    font-family: "DM Sans 500";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    margin: 0 0 38px 3px;
+  }
 }

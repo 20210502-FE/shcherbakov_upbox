@@ -1,55 +1,119 @@
-.main {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-
-  &_social_post {
+@media only screen and (min-width: 769px)  {
+  .main {
     width: 100%;
-    background-color: $color-zircon;
+    max-width: 1440px;
+    margin: 0 auto;
 
-    &_title {
+    &__social-post {
       width: 100%;
-      font-size: 48px;
-      line-height: 56px;
-      font-family: $st-font-400;
-      text-align: center;
-      color: $color-black;
-      margin: 100px 0 50px 0;
-      padding-top: 100px;
-    }
+      background-color: $color-zircon;
 
-    &_content {
-      width: 100%;
-      padding: 0 29px 0;
+      &__title {
+        width: 100%;
+        font-size: 48px;
+        line-height: 56px;
+        font-family: $st-font-400;
+        text-align: center;
+        color: $color-black;
+        margin: 100px 0 50px 0;
+        padding-top: 100px;
+      }
 
-      &_figure {
-        width: 312px;
-        height: 525px;
-        margin-bottom: 99px;
+      &__content {
+        width: 100%;
+        padding: 0 29px 0;
 
-        &_photo {
+        &__figure {
           width: 312px;
-          height: 431px;
-          margin-bottom: 25px;
-        }
+          height: 525px;
+          margin-bottom: 99px;
 
-        &_description {
-          font-family: $s-font-400;
-          font-size: 26px;
-          line-height: 34px;
-          letter-spacing: 0.01em;
-          margin: 0 0 0 2px;
+          &__photo {
+            width: 312px;
+            height: 431px;
+            margin-bottom: 25px;
+          }
+
+          &__description {
+            font-family: $s-font-400;
+            font-size: 26px;
+            line-height: 34px;
+            letter-spacing: 0.01em;
+            margin: 0 0 0 2px;
+          }
+        }
+      }
+
+      &__bottom-wrapper {
+        width: 100%;
+
+        &__button {
+          width: 320px;
+          height: 61px;
+          margin: 0 6px 94px 0;
         }
       }
     }
+  }
+}
 
-    &_bottom_wrapper {
+@media only screen and (max-width: 768px)  {
+
+  .main {
+    width: 100%;
+    margin: 0 auto;
+
+    &__social-post {
       width: 100%;
+      background-color: $color-zircon;
 
-      &_button {
-        width: 320px;
-        height: 61px;
-        margin: 0 6px 94px 0;
+      &__title {
+        width: 100%;
+        font-size: 48px;
+        line-height: 56px;
+        font-family: $st-font-400;
+        text-align: center;
+        color: $color-black;
+        margin: 51px 0 50px 9px;
+        padding-top: 100px;
+      }
+
+      &__content {
+        width: 100%;
+        padding: 0 30px 0;
+        margin:  0 0 0 10px;
+
+        &__figure {
+          width: 312px;
+          height: 525px;
+          margin-bottom: 45px;
+
+          &__photo {
+            width: 312px;
+            height: 431px;
+            margin-bottom: 26px;
+          }
+
+          &__description {
+            font-family: $s-font-400;
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: 0.01em;
+          }
+        }
+      }
+
+      &__bottom-wrapper {
+        width: 100%;
+
+        &__button {
+          width: 320px;
+          height: 61px;
+          margin: 20px 0 130px 17px;
+          font-size: 16px;
+          line-height: 21px;
+          letter-spacing: 0.12em;
+        }
       }
     }
   }

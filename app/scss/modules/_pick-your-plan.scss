@@ -166,6 +166,7 @@
           box-sizing: border-box;
           border-radius: 6px;
           background: url("../assets/images/pick-your-plan/vector-monthly.png");
+          background-size: cover;
           margin: 0 0 22px 15px;
 
           &__period {
@@ -200,6 +201,7 @@
           border-radius: 6px;
           margin-bottom: 22px;
           background: url("../assets/images/pick-your-plan/vector-yearly.png");
+          background-size: cover;
 
           &__period {
             font-family: $st-font-400;
@@ -231,6 +233,130 @@
           margin: 0 0 40px 25px;
           width: 100%;
           text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main {
+    width: 100%;
+    margin: 0 auto;
+
+
+    &__plan-banner {
+      width: 100%;
+      margin: 100px auto 0;
+
+      &__wrapper {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+
+        &__title {
+          width: 100%;
+          margin: 42px 0 60px 7px;
+
+
+          &__words {
+            font-family: $st-font-400;
+            font-size: 48px;
+            line-height: 56px;
+            text-align: center;
+            color: $color-black;
+            margin: 0 0 9px 0;
+          }
+
+          &__underline {
+
+            img {
+              margin: 0 7px 0 0;
+              width: 243.13px;
+              height: 16.33px;
+            }
+          }
+        }
+
+        &__content-monthly {
+          width: 348.33px;
+          height: 188.39px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: 4px solid rgba(196, 196, 196, .3);
+          box-sizing: border-box;
+          border-radius: 6px;
+          background: url("../assets/images/pick-your-plan/vector-monthly.png");
+          background-size: cover;
+          margin: 0 0 17px 13px;
+
+          &__period {
+            font-family: $st-font-400;
+            font-size: 30px;
+            line-height: 41px;
+            text-align: center;
+            color: $color-black;
+            margin: 20px 0 2px -8px;
+          }
+
+
+          &__price {
+            font-family: $s-font-400;
+            font-size: 30px;
+            line-height: 39px;
+            text-align: center;
+            letter-spacing: 0.12em;
+            color: $color-black;
+            margin: -2px 0 7px 1px;
+          }
+        }
+
+        &__content-yearly {
+          width: 348.33px;
+          height: 188.39px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: 4px solid rgba(196, 196, 196, .3);
+          box-sizing: border-box;
+          border-radius: 6px;
+          margin: 0 0 15px 14px;
+          background: url("../assets/images/pick-your-plan/vector-yearly.png");
+          background-size: cover;
+
+          &__period {
+            font-family: $st-font-400;
+            font-size: 30px;
+            line-height: 41px;
+            text-align: center;
+            color: $color-black;
+            margin: 26px 0 2px -9px;
+            opacity: 1;
+          }
+
+          &__price {
+            font-family: $s-font-400;
+            font-size: 30px;
+            line-height: 39px;
+            text-align: center;
+            letter-spacing: 0.12em;
+            color: $color-black;
+            margin: -2px 0 10px -3px;
+          }
+        }
+
+        &__bottom-title {
+          font-family: $s-font-400;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.01em;
+          color: $color-black;
+          margin: 0 0 30px 14px;
+          width: 300px;
+          text-align: left;
         }
       }
     }

@@ -1,7 +1,6 @@
 @media only screen and (min-width: 769px) {
   .main {
     width: 100%;
-    max-width: 1440px;
     margin: 0 auto;
 
     &__how-it-works {
@@ -11,7 +10,8 @@
 
       &__wrapper {
         width: 100%;
-        max-width: 970px;
+        max-width: 1440px;
+        margin: 0 auto;
         margin-top: 85px;
       }
 

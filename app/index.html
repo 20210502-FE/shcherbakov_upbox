@@ -1,247 +1,271 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-	<meta charset = "UTF-8">
+	<meta charset="UTF-8">
 	<title>UPBOX</title>
-	<link rel = "stylesheet" href = "assets/icons/icons/iconsfonts.css">
-	<link rel = "stylesheet" href = "css/main.css">
+	<link rel="stylesheet" href="assets/icons/icons/iconsfonts.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header class="header">
-		<div class="header__line"></div>
-		<div class="header__nav flex flex_aline-center">
-			<div class="header__nav__wrapper flex flex_aline-center flex_between">
-				<div class="header__logo flex flex_aline-center">
-					<img class="header__nav__logo__image" src = "assets/images/top-banner/logo.png" alt = "Logo">
-					<div class="header__nav__logo__text">upbox</div>
-				</div>
-				<div class="header__nav__block__link flex flex_aline-center">
-					<ul class="flex flex_aline-center">
-						<li><a href = "#">this month</a></li>
-						<li><a href = "#">skin</a></li>
-						<li><a href = "#">hair</a></li>
-						<li><a href = "#">bath</a></li>
-						<li><a href = "#">sale</a></li>
-						<li><a href = "#">log in ></a></li>
-					</ul>
-				</div>
-				<div class="header__nav__block__burger-menu">
-					<input id="menu__toggle" type="checkbox">
-					<label class="header__nav__block__menu__btn" for="menu__toggle">
-						<span></span>
-					</label>
-					<ul class="header__nav__block__menu__box">
-						<li><a class="header__nav__block__menu__item" href="#">this month</a></li>
-						<li><a class="header__nav__block__menu__item" href="#">skin</a></li>
-						<li><a class="header__nav__block__menu__item" href="#">hair</a></li>
-						<li><a class="header__nav__block__menu__item" href="#">bath</a></li>
-						<li><a class="header__nav__block__menu__item" href="#">sale</a></li>
-						<li><a class="header__nav__block__menu__item" href="#">log in ></a></li>
-					</ul>
-				</div>
+<header>
+	<div class="header__line"></div>
+	<div class="header__nav flex flex_aline-center">
+		<div class="header__nav__wrapper flex flex_aline-center flex_between">
+			<div class="header__logo flex flex_aline-center">
+				<img class="header__nav__logo__image" src="assets/images/top-banner/logo.png" alt="Logo">
+				<div class="header__nav__logo__text">upbox</div>
+			</div>
+			<nav class="header__nav__block__link flex flex_aline-center">
+				<ul class="flex flex_aline-center">
+					<li><a href="#">this month</a></li>
+					<li><a href="#">skin</a></li>
+					<li><a href="#">hair</a></li>
+					<li><a href="#">bath</a></li>
+					<li><a href="#">sale</a></li>
+					<li><a href="#">log in ></a></li>
+				</ul>
+			</nav>
+			<div class="header__nav__block__burger-menu">
+				<input id="menu__toggle" type="checkbox">
+				<label class="header__nav__block__menu__btn" for="menu__toggle">
+					<span></span>
+				</label>
+				<ul class="header__nav__block__menu__box">
+					<li><a class="header__nav__block__menu__item" href="#">this month</a></li>
+					<li><a class="header__nav__block__menu__item" href="#">skin</a></li>
+					<li><a class="header__nav__block__menu__item" href="#">hair</a></li>
+					<li><a class="header__nav__block__menu__item" href="#">bath</a></li>
+					<li><a class="header__nav__block__menu__item" href="#">sale</a></li>
+					<li><a class="header__nav__block__menu__item" href="#">log in ></a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="header__banner flex">
-			<div class="header__content">
-				<h1 class="header__content__title">Look good without leaving your house.</h1>
-				<p class="header__content__text">Upbox is the easiest way to look your best without having to hunt for the
-					perfect makeup combination. Our stylists curate the latest trends and send them directly to your door
-					every month.
-				</p>
-				<a class="button header__content__button" href = "#">sign up ></a>
+	</div>
+	<div class="header__banner flex">
+		<div class="header__content">
+			<h1 class="header__content__title">Look good without leaving your house.</h1>
+			<p class="header__content__text">Upbox is the easiest way to look your best without having to hunt for the
+				perfect makeup combination. Our stylists curate the latest trends and send them directly to your door
+				every month.
+			</p>
+			<a class="button header__content__button" href="#">sign up ></a>
+		</div>
+		<div class="header__product flex">
+			<img class="header__product__tablet-box" src="assets/images/top-banner/box.png" alt="#">
+			<div class="header__product__marker"></div>
+		</div>
+	</div>
+
+</header>
+<main class="main">
+	<div class="main__plan-banner flex text_center">
+		<div class="main__plan-banner__wrapper flex flex_wrap flex_between">
+			<div class="main__plan-banner__wrapper__title flex flex_column flex_aline-center">
+				<div class="main__plan-banner__wrapper__title__words">Pick your plan</div>
+				<div class="main__plan-banner__wrapper__title__underline"><img
+						src="assets/images/pick-your-plan/underline.png" alt="#"></div>
 			</div>
-			<div class="header__product flex">
-				<img class="header__product__tablet-box" src = "assets/images/top-banner/box.png" alt = "#">
-				<div class="header__product__marker"></div>
+			<div class="main__plan-banner__wrapper__content-monthly">
+				<div class="main__plan-banner__wrapper__content-monthly__period">Monthly</div>
+				<div class="main__plan-banner__wrapper__content-monthly__price">$18/mo</div>
+				<a class="button__pink">FIND YOUR BOX</a>
+			</div>
+			<div class="main__plan-banner__wrapper__content-yearly">
+				<div class="main__plan-banner__wrapper__content-yearly__period">Yearly</div>
+				<div class="main__plan-banner__wrapper__content-yearly__price">$15/mo</div>
+				<a class="button__pink">FIND YOUR BOX</a>
+			</div>
+			<div class="main__plan-banner__wrapper__bottom-title">Your plan auto-renews at the end of 30 days from the
+				1st day you signed-up.
 			</div>
 		</div>
-		
-	</header>
-	<main class="main">
-		<div class="main__plan-banner flex text_center">
-			<div class="main__plan-banner__wrapper flex flex_wrap flex_between">
-				<div class="main__plan-banner__wrapper__title flex flex_column flex_aline-center">
-					<div class="main__plan-banner__wrapper__title__words">Pick your plan</div>
-					<div class="main__plan-banner__wrapper__title__underline"><img src = "assets/images/pick-your-plan/underline.png" alt = "#"></div>
+	</div>
+	<!--		HOW IT WORKS
+				Set up your profile      -->
+	<div class="main__how-it-works flex flex_content-center">
+		<div class="main__how-it-works__wrapper flex flex_column flex_content-center">
+			<div class="main__how-it-works__setup-your-profile flex flex_wrap">
+				<div class="main__how-it-works__setup-your-profile__title flex flex_column flex_aline-center">
+					<h1 class="main__how-it-works__setup-your-profile__title__text">How it works?</h1>
+					<img class="main__how-it-works__setup-your-profile__title__underline"
+					     src="assets/images/how-it-works/underline.png" alt="">
 				</div>
-				<div class="main__plan-banner__wrapper__content-monthly">
-					<div class="main__plan-banner__wrapper__content-monthly__period">Monthly</div>
-					<div class="main__plan-banner__wrapper__content-monthly__price">$18/mo</div>
-					<a class="button__pink">FIND YOUR BOX</a>
+				<div class="main__how-it-works__setup-your-profile__photo flex flex-end">
+					<img class="main__how-it-works__setup-your-profile__photo__pictures"
+					     src="assets/images/how-it-works/photo-1.png" alt="photo_set-up-your-profile_pictures">
+					<img class="main__how-it-works__setup-your-profile__photo__numeral"
+					     src="assets/images/how-it-works/1.png" alt="one">
+					<img class="main__how-it-works__setup-your-profile__photo__art"
+					     src="assets/images/how-it-works/art1.png" alt="">
 				</div>
-				<div class="main__plan-banner__wrapper__content-yearly">
-					<div class="main__plan-banner__wrapper__content-yearly__period">Yearly</div>
-					<div class="main__plan-banner__wrapper__content-yearly__price">$15/mo</div>
-					<a class="button__pink">FIND YOUR BOX</a>
-				</div>
-				<div class="main__plan-banner__wrapper__bottom-title">Your plan auto-renews at the end of 30 days from the 1st day you signed-up.</div>
-			</div>
-		</div>
-<!--		HOW IT WORKS
-			Set up your profile      -->
-		<div class="main__how-it-works flex flex_content-center">
-			<div class="main__how-it-works__wrapper flex flex_column flex_content-center">
-				<div class="main__how-it-works__setup-your-profile flex flex_wrap">
-					<div class="main__how-it-works__setup-your-profile__title flex flex_column flex_aline-center">
-						<h1 class="main__how-it-works__setup-your-profile__title__text">How it works?</h1>
-						<img class="main__how-it-works__setup-your-profile__title__underline" src = "assets/images/how-it-works/underline.png" alt = "">
-					</div>
-					<div class="main__how-it-works__setup-your-profile__photo flex flex-end">
-						<img class="main__how-it-works__setup-your-profile__photo__pictures" src = "assets/images/how-it-works/photo-1.png" alt = "photo_set-up-your-profile_pictures">
-						<img class="main__how-it-works__setup-your-profile__photo__numeral" src = "assets/images/how-it-works/1.png" alt = "one">
-						<img class="main__how-it-works__setup-your-profile__photo__art" src = "assets/images/how-it-works/art1.png" alt = "">
-					</div>
-					<div class="main__how-it-works__setup-your-profile__content">
-						<h1 class="main__how-it-works__setup-your-profile__content__title">Setup your profile & preferences</h1>
-						<p class="main__how-it-works__setup-your-profile__content__text">Once you create an account, you can
-							start to tell us your likes and dislikes so we can tailor the experience just for you.
-						</p>
-					</div>
-				</div>
-<!--				Review your custom box-->
-				<div class="main__how-it-works__review-your-custom-box flex flex_column flex_aline-center">
-					<div class="main__how-it-works__review-your-custom-box__photo flex flex_column flex-end">
-						<img class="main__how-it-works__review-your-custom-box__photo__pictures" src = "assets/images/how-it-works/photo-2.png"
-						     alt = "#">
-						<img class="main__how-it-works__review-your-custom-box__photo__numeral" src = "assets/images/how-it-works/2.png" alt = "one">
-						<img class="main__how-it-works__review-your-custom-box__photo__art" src = "assets/images/how-it-works/art2.png" alt = "#">
-						<img class="main__how-it-works__review-your-custom-box__photo__art2-vector" src = "assets/images/how-it-works/art2_vector.png" alt = "">
-						<div class="main__how-it-works__review-your-custom-box__content">
-							<h1 class="main__how-it-works__review-your-custom-box__content__title">Review your <br> custom box</h1>
-							<p class="main__how-it-works__review-your-custom-box__content__text">Once we get to know you, we will show
-								you the box we’ve crafted. This is your chance to approve it before we ship it to your house.
-							</p>
-						</div>
-					</div>
-				</div>
-<!--				Try it on at home-->
-				<div class="main__how-it-works__try-it-on-at-home flex flex_wrap">
-					<div class="main__how-it-works__try-it-on-at-home__photo flex flex-end">
-						<img class="main__how-it-works__try-it-on-at-home__photo__pictures" src = "assets/images/how-it-works/photo-3.png"
-						     alt = "photo__set-up-your-profile__pictures">
-						<img class="main__how-it-works__try-it-on-at-home__photo__numeral" src = "assets/images/how-it-works/3.png" alt = "one">
-						<img class="main__how-it-works__try-it-on-at-home__photo__art" src = "assets/images/how-it-works/art3.png" alt = "">
-					</div>
-					<div class="main__how-it-works__try-it-on-at-home__content">
-						<h1 class="main__how-it-works__try-it-on-at-home__content__title">Try it on at home</h1>
-						<p class="main__how-it-works__try-it-on-at-home__content__text">Your box will arrive within 3-5 days
-							(usually sooner) and you get the joy to unbox your Upbox. Try it all on and send back whatever
-							you’re not in love with.
-						</p>
-					</div>
-				</div>
-				<div class="main__how-it-works__try-it-on-at-home__button flex flex_content-center">
-					<a class="button__pink__for-yourself" href = "#">TRY IT FOR YOURSELF ></a>
-				</div>
-			</div>
-		</div>
-<!--		SOCIAL POST-->
-		<div class="main__social-post">
-			<div class="main__social-post__title">Social Posts</div>
-			<div class="main__social-post__content flex flex_space_around flex_wrap">
-				<div class="main__social-post__content__figure">
-					<img class="main__social-post__content__figure__photo" src = "assets/images/social-post/img1.png" alt = "#">
-					<h4 class="main__social-post__content__figure__description">How to rock the lip look that turns heads</h4>
-				</div>
-				<div class="main__social-post__content__figure">
-					<img class="main__social-post__content__figure__photo" src = "assets/images/social-post/img2.png" alt = "#">
-					<h4 class="main__social-post__content__figure__description">Find the perfect shade for the season</h4>
-				</div>
-				<div class="main__social-post__content__figure">
-				<img class="main__social-post__content__figure__photo" src = "assets/images/social-post/img3.png" alt = "#">
-				<h4 class="main__social-post__content__figure__description">The 5 eye shadow secrets you never knew</h4>
-				</div>
-					<div class="main__social-post__content__figure">
-					<img class="main__social-post__content__figure__photo" src = "assets/images/social-post/img4.png" alt = "#">
-					<h4 class="main__social-post__content__figure__description">The pro-tips for at home hair dying</h4>
-				</div>
-			</div>
-			<div class="main__social-post__bottom-wrapper flex flex_content-center">
-				<a class="button__pink main__social-post__bottom-wrapper__button" href = "#">FOLLOW US ON INSTAGRAM</a>
-			</div>
-		</div>
-	</main>
-	<footer class="footer">
-		<div class="footer__information-company">
-			<div class="footer__information-company__wrapper">
-				<div class="footer__social-top flex flex_aline-center flex_between">
-					<div class="footer__social-top__logo flex">
-						<img class="footer__social-top__logo__img" src = "assets/images/top-banner/logo.png" alt = "">
-						<h4 class="footer__social-top__logo__text">upbox</h4>
-					</div>
-					<div class="footer__social-top__group">
-							<a class="footer__social-top__group__social-items" target=”_blank” href = "https://instagram.com/share">
-								<img src = "assets/images/information-company/ig.png" alt = "#"></a>
-							<a class="footer__social-top__group__social-items" target=”_blank” href = "https://facebook.com/share">
-								<img src = "assets/images/information-company/fb.png" alt = "#"></a>
-							<a class="footer__social-top__group__social-items" target=”_blank” href = "https://twitter.com/share">
-								<img src = "assets/images/information-company/tw.png" alt = "#"></a>
-							<a class="footer__social-top__group__social-items" target=”_blank” href = "https://snapchat.com/share">
-								<img src = "assets/images/information-company/sc.png" alt = "#"></a>
-					</div>
-				</div>
-				<div class="footer__content flex flex_between flex_wrap">
-					<div class="footer__content__column">
-						<h1 class="footer__content__column__title">UPBOX</h1>
-						<div class="footer__content__column__link">
-							<ul>
-								<li><a href = "#">Upbox Bag</a></li>
-								<li><a href = "#">Upbox Box Platinum</a></li>
-								<li><a href = "#">Upbox Box VIP</a></li>
-								<li><a href = "#">Deals</a>
-								<li><a href = "#">Seasonal Items</a></li>
-								<li><a href = "#">Upbox Promise</a></li>
-							</ul>
-						</div>
-					</div><div class="footer__content__column">
-					<h1 class="footer__content__column__title">Find Us On</h1>
-					<div class="footer__content__column__link">
-						<ul>
-							<li><a href = "#">Instagram</a></li>
-							<li><a href = "#">Facebook</a></li>
-							<li><a href = "#">TikTok</a></li>
-							<li><a href = "#">SnapChat</a></li>
-							<li><a href = "#">Twitter</a></li>
-						</ul>
-					</div>
-				</div>
-					<div class="footer__content__column">
-						<h1 class="footer__content__column__title">Product</h1>
-						<div class="footer__content__column__link">
-							<ul>
-								<li><a href = "#">Get the App</a></li>
-								<li><a href = "#">Loyalty Program</a></li>
-								<li><a href = "#">Affiliates</a></li>
-								<li><a href = "#">Press</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="footer__content__column">
-						<h1 class="footer__content__column__title">Help</h1>
-						<div class="footer__content__column__link">
-							<ul>
-								<li><a href = "#">Returns</a></li>
-								<li><a href = "#">FAQ</a></li>
-								<li><a href = "#">Contact</a></li>
-								<li><a href = "#">Community</a></li>
-								<li><a href = "#">Videos</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer__bottom flex">
-				<div class="footer__bottom__wrapper flex flex_column">
-					<div class="footer__bottom__wrapper__terms flex">
-						<a class="footer__bottom__wrapper__terms__links" href = "#">Terms</a>
-						<a class="footer__bottom__wrapper__terms__links" href = "#">Privacy Policy</a>
-					</div>
-					<p class="footer__bottom__wrapper__terms__copyright">© 2020 Quest AI. Upbox is a Sample Project and open source design project
-						free for personal and commercial use.
+				<div class="main__how-it-works__setup-your-profile__content">
+					<h1 class="main__how-it-works__setup-your-profile__content__title">Setup your profile &
+						preferences</h1>
+					<p class="main__how-it-works__setup-your-profile__content__text">Once you create an account, you can
+						start to tell us your likes and dislikes so we can tailor the experience just for you.
 					</p>
 				</div>
 			</div>
+			<!--				Review your custom box-->
+			<div class="main__how-it-works__review-your-custom-box flex flex_column flex_aline-center">
+				<div class="main__how-it-works__review-your-custom-box__photo flex flex_column flex-end">
+					<img class="main__how-it-works__review-your-custom-box__photo__pictures"
+					     src="assets/images/how-it-works/photo-2.png"
+					     alt="#">
+					<img class="main__how-it-works__review-your-custom-box__photo__numeral"
+					     src="assets/images/how-it-works/2.png" alt="one">
+					<img class="main__how-it-works__review-your-custom-box__photo__art"
+					     src="assets/images/how-it-works/art2.png" alt="#">
+					<img class="main__how-it-works__review-your-custom-box__photo__art2-vector"
+					     src="assets/images/how-it-works/art2_vector.png" alt="">
+					<div class="main__how-it-works__review-your-custom-box__content">
+						<h1 class="main__how-it-works__review-your-custom-box__content__title">Review your <br> custom
+							box</h1>
+						<p class="main__how-it-works__review-your-custom-box__content__text">Once we get to know you, we
+							will show
+							you the box we’ve crafted. This is your chance to approve it before we ship it to your
+							house.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--				Try it on at home-->
+			<div class="main__how-it-works__try-it-on-at-home flex flex_wrap">
+				<div class="main__how-it-works__try-it-on-at-home__photo flex flex-end">
+					<img class="main__how-it-works__try-it-on-at-home__photo__pictures"
+					     src="assets/images/how-it-works/photo-3.png"
+					     alt="photo__set-up-your-profile__pictures">
+					<img class="main__how-it-works__try-it-on-at-home__photo__numeral"
+					     src="assets/images/how-it-works/3.png" alt="one">
+					<img class="main__how-it-works__try-it-on-at-home__photo__art"
+					     src="assets/images/how-it-works/art3.png" alt="">
+				</div>
+				<div class="main__how-it-works__try-it-on-at-home__content">
+					<h1 class="main__how-it-works__try-it-on-at-home__content__title">Try it on at home</h1>
+					<p class="main__how-it-works__try-it-on-at-home__content__text">Your box will arrive within 3-5 days
+						(usually sooner) and you get the joy to unbox your Upbox. Try it all on and send back whatever
+						you’re not in love with.
+					</p>
+				</div>
+			</div>
+			<div class="main__how-it-works__try-it-on-at-home__button flex flex_content-center">
+				<a class="button__pink__for-yourself" href="#">TRY IT FOR YOURSELF ></a>
+			</div>
 		</div>
-	</footer>
+	</div>
+	<!--		SOCIAL POST-->
+	<div class="main__social-post">
+		<div class="main__social-post__title">Social Posts</div>
+		<div class="main__social-post__content flex flex_space_around flex_wrap">
+			<div class="main__social-post__content__figure">
+				<img class="main__social-post__content__figure__photo" src="assets/images/social-post/img1.png" alt="#">
+				<h4 class="main__social-post__content__figure__description">How to rock the lip look that turns
+					heads</h4>
+			</div>
+			<div class="main__social-post__content__figure">
+				<img class="main__social-post__content__figure__photo" src="assets/images/social-post/img2.png" alt="#">
+				<h4 class="main__social-post__content__figure__description">Find the perfect shade for the season</h4>
+			</div>
+			<div class="main__social-post__content__figure">
+				<img class="main__social-post__content__figure__photo" src="assets/images/social-post/img3.png" alt="#">
+				<h4 class="main__social-post__content__figure__description">The 5 eye shadow secrets you never knew</h4>
+			</div>
+			<div class="main__social-post__content__figure">
+				<img class="main__social-post__content__figure__photo" src="assets/images/social-post/img4.png" alt="#">
+				<h4 class="main__social-post__content__figure__description">The pro-tips for at home hair dying</h4>
+			</div>
+		</div>
+		<div class="main__social-post__bottom-wrapper flex flex_content-center">
+			<a class="button__pink main__social-post__bottom-wrapper__button" href="#">FOLLOW US ON INSTAGRAM</a>
+		</div>
+	</div>
+</main>
+<footer class="footer">
+	<div class="footer__information-company">
+		<div class="footer__information-company__wrapper">
+			<div class="footer__social-top flex flex_aline-center flex_between">
+				<div class="footer__social-top__logo flex">
+					<img class="footer__social-top__logo__img" src="assets/images/top-banner/logo.png" alt="">
+					<h4 class="footer__social-top__logo__text">upbox</h4>
+				</div>
+				<div class="footer__social-top__group">
+					<a class="footer__social-top__group__social-items" target=”_blank”
+					   href="https://instagram.com/share">
+						<img src="assets/images/information-company/ig.png" alt="#"></a>
+					<a class="footer__social-top__group__social-items" target=”_blank”
+					   href="https://facebook.com/share">
+						<img src="assets/images/information-company/fb.png" alt="#"></a>
+					<a class="footer__social-top__group__social-items" target=”_blank” href="https://twitter.com/share">
+						<img src="assets/images/information-company/tw.png" alt="#"></a>
+					<a class="footer__social-top__group__social-items" target=”_blank”
+					   href="https://snapchat.com/share">
+						<img src="assets/images/information-company/sc.png" alt="#"></a>
+				</div>
+			</div>
+			<div class="footer__content flex flex_between flex_wrap">
+				<div class="footer__content__column">
+					<h1 class="footer__content__column__title">UPBOX</h1>
+					<div class="footer__content__column__link">
+						<ul>
+							<li><a href="#">Upbox Bag</a></li>
+							<li><a href="#">Upbox Box Platinum</a></li>
+							<li><a href="#">Upbox Box VIP</a></li>
+							<li><a href="#">Deals</a>
+							<li><a href="#">Seasonal Items</a></li>
+							<li><a href="#">Upbox Promise</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__content__column">
+					<h1 class="footer__content__column__title">Find Us On</h1>
+					<div class="footer__content__column__link">
+						<ul>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">TikTok</a></li>
+							<li><a href="#">SnapChat</a></li>
+							<li><a href="#">Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__content__column">
+					<h1 class="footer__content__column__title">Product</h1>
+					<div class="footer__content__column__link">
+						<ul>
+							<li><a href="#">Get the App</a></li>
+							<li><a href="#">Loyalty Program</a></li>
+							<li><a href="#">Affiliates</a></li>
+							<li><a href="#">Press</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__content__column">
+					<h1 class="footer__content__column__title">Help</h1>
+					<div class="footer__content__column__link">
+						<ul>
+							<li><a href="#">Returns</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Community</a></li>
+							<li><a href="#">Videos</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom flex">
+			<div class="footer__bottom__wrapper flex flex_column">
+				<div class="footer__bottom__wrapper__terms flex">
+					<a class="footer__bottom__wrapper__terms__links" href="#">Terms</a>
+					<a class="footer__bottom__wrapper__terms__links" href="#">Privacy Policy</a>
+				</div>
+				<p class="footer__bottom__wrapper__terms__copyright">© 2020 Quest AI. Upbox is a Sample Project and open
+					source design project
+					free for personal and commercial use.
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
 </body>
 </html>

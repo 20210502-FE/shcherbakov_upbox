@@ -1,0 +1,154 @@
+.button {
+  border: 4px solid $color-mauvelous;
+  border-radius: 300px;
+  background-color: $color-white;
+  width: 183px;
+  height: 61px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: $s-font-700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-black;
+
+  &__pink {
+    width: 200px;
+    height: 61px;
+    background-color: $color-mauvelous;
+    border: none;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: $color-white;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__for-yourself {
+      width: 284px;
+      height: 61px;
+      background-color: $color-white;
+      border: none;
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0.12em;
+      text-align: center;
+      color: $color-black;
+      border-radius: 300px;
+      border: 4px solid $color-mauvelous;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .button {
+    border: 4px solid $color-mauvelous;
+    border-radius: 300px;
+    background-color: $color-white;
+    width: 161px;
+    height: 49px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: $s-font-700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-black;
+    padding: 10px 0;
+
+    &__pink {
+      width: 106px;
+      height: 33px;
+      background-color: $color-mauvelous;
+      border: none;
+      font-size: 8px;
+      line-height: 10px;
+      text-align: center;
+      letter-spacing: 0.12em;
+      color: $color-white;
+      border-radius: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__for-yourself {
+        width: 225px;
+        height: 49px;
+        background-color: $color-white;
+        border: none;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.12em;
+        text-align: center;
+        color: $color-black;
+        border-radius: 300px;
+        border: 4px solid $color-mauvelous;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .button {
+    border: 4px solid $color-mauvelous;
+    border-radius: 300px;
+    background-color: $color-white;
+    width: 161px;
+    height: 49px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: $s-font-700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-black;
+    padding: 10px 0;
+
+    &__pink {
+      width: 179px;
+      height: 40px;
+      background-color: $color-mauvelous;
+      border: none;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: 0.12em;
+      color: $color-white;
+      border-radius: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__for-yourself {
+        width: 285px;
+        height: 60px;
+        background-color: $color-white;
+        border: none;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.12em;
+        text-align: center;
+        color: $color-black;
+        border-radius: 300px;
+        border: 4px solid $color-mauvelous;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
